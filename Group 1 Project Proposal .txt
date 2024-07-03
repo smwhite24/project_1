@@ -1,0 +1,22 @@
+Group 1 Project Proposal 
+
+today we'll decide on an area of interest, team members, project proposal with question, expected outcome, data to be used. 
+
+Team Members: LaTaya Franklin, Richard Willet, Ellen Grant, Sarah Racine, Natalie Raver-Goldsby. 
+
+Project Proposal: Comparing real estate prices and mortgage rates over the last 20 years in the Nashville metro area. 
+1) What is the strongest determining factor of real estate prices? 
+2) Does the strength of these effects differ for different types of real estate/different listings (1br vs 3br, single family homes, condos, etc) 
+3) How do different types of real estate (e.g., residential, commercial) respond to changes in mortgage rates? 
+4) What role do other economic indicators (unemployment rates, income levels, and inflation) play in this relationship? 
+5) How do mortgage rate changes impact different segments of the population?
+
+Datasets we plan to use: 
+Census Data 
+https://www.kaggle.com/datasets/joshhaber/us-real-estate-and-interest-rates-census-and-fred
+https://www.kaggle.com/datasets/joshhaber/us-real-estate-incomepriceregion-census-data
+https://www.kaggle.com/datasets/utkarshx27/real-estate-sales-2001-2021-gl
+
+Expected outcome: 
+Define a trend of expected real estate prices vs what the market/mortgage rate prices are. Expecting a negative relationship, as mortgage rates increase, we expect real estate prices to decrease. 
+1) We expect mortgage rates to be the strongest determining factor of real estate prices. 
