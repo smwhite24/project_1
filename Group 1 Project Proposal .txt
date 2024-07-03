@@ -20,3 +20,4 @@ https://www.kaggle.com/datasets/utkarshx27/real-estate-sales-2001-2021-gl
 Expected outcome: 
 Define a trend of expected real estate prices vs what the market/mortgage rate prices are. Expecting a negative relationship, as mortgage rates increase, we expect real estate prices to decrease. 
 1) We expect mortgage rates to be the strongest determining factor of real estate prices. 
+
