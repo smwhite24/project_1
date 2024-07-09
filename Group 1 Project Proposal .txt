@@ -1,6 +1,6 @@
 Group 1 Project Proposal 
 
-Team Members: LaTaya Franklin, Richard Willet, Ellen Grant, Sarah Racine, Natalie Raver-Goldsby. 
+Team Members: Tennille Franklin, Richard Willet, Ellen Grant, Sarah Racine, Natalie Raver-Goldsby. 
 
 Project Proposal: Comparing real estate prices and mortgage rates over the last 20 years in the Nashville metro area. 
 1) What is the strongest correlation of real estate prices? - Richard (?) 
