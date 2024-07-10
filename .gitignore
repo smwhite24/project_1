@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+api_key: ffad6dd3e7a2e20c0b9ac56796b99c20cd23a4ca
+
 # C extensions
 *.so
 
@@ -61,7 +63,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+ Flask stuff:
 instance/
 .webassets-cache
 
