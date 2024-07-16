@@ -1,1 +1,1 @@
-Zillow Data was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. We just data for all home types (single family home rentals and condos) as well as exclusively look at single family rentals. 
+Zillow Data was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. We use data for all home types (single family home rentals and condos) as well as exclusively single family rentals. 
