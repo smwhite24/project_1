@@ -15,11 +15,23 @@ Code structure:
 All of our code is within "". This includes the cleaning of both Zillow and FreddieMac data, as well as the code for visualizations. 
 
 Results: 
-  We find that 
+  Mortgage rates can only explain 44.5 percent of the changes in variance of real estate prices.
+  Real estate prices do not have a linear relationship with mortgage rates.  
+  Median home prices increased. 
+  15/30 year fixed mortgages increased at similar rates. 
+  Real estate prices do not have a linear relationship with mortgage rates. 
+  There is no statistically significant difference between median prices for all versus median prices for single family rentals. 
 
- Merging with the Zillow data, so we have Nashville median prices for all and for single-family rentals in one place. 
+Future work: 
+In the future we’d like to incorporate census data (demographic data like education, race, or income) to help explain changes in real estate prices. Additionally, we would like to explore what effect the pandemic had on median prices. In the future we could also look at the frequency of homes being put up for sale or being taken off the market. Mortgage rates affect buyers borrowing power and may have a greater effect on frequency of sales rather than price. 
+Our data was limited to median sales prices for only single family rentals and condos. We if had more time we would have explored the differences across commercial and residential prices and across different types of homes (1br, 2br, 3br). 
+
+Acknowledgements & References: 
+This data was sourced from Zillow and FreddieMac. Throughout this project we used Xpert Learning Assistant to trouble shoot code and visualizations. The rest of the code was written by Natalie Raver-Goldsby, Ellen Grant, Sarah Racine, Richard Willet and Tennille Franklin. 
+
+Overview/Notes: 
+Merging with the Zillow data, so we have Nashville median prices for all and for single-family rentals in one place. 
 We imported and read data from Zillow.
-
 
 We only want to look at Nashville data so we dropped other locations. We have 68 time points for median sales prices in Nashville starting in 2018 and ending in 2024. Data is collected at the end of each month.
 
@@ -40,7 +52,4 @@ We then plotted median sales prices for all against 30yr fixed mortgage rates ov
 
 Lastly, we calculated the correlation coefficients and produced two regressions. We produced one for 30yr FRM and one for 5/1 ARM because ARM seemed to deviate from both 30 and 15 year FRM. #Real estate prices below 300000 seem to have a negative relationship with mortgage rates while real estate median prices over 300k looks like to have an exponential relationship with mortgage rates.
 
-In the future we’d like to incorporate census data (demographic data like education, race, or income) to help explain changes in real estate prices. Additionally, we would like to explore what effect the pandemic had on median prices. In the future we could also look at the frequency of homes being put up for sale or being taken off the market. Mortgage rates affect buyers borrowing power and may have a greater effect on frequency of sales rather than price. 
-Our data was limited to median sales prices for only single family rentals and condos. We if had more time we would have explored the differences across commercial and residential prices and across different types of homes (1br, 2br, 3br). 
 
-Throughout this project we used Xpert Learning Assistant to trouble shoot code and visualizations. 
