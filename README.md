@@ -5,10 +5,10 @@ Installation instructions:
   Please download the files in the github and ensure you have the following dependencies in your environment: Panadas, Numpy, MatPlotLib, SciPy. The raw data files are included in Resources folder. The visual outputs are in the Outputs folder. This was run in VS Code or can be ran in Jupyter Notebook. 
 
 Data Sources: 
-  Zillow data, "median_sales_price_all" "median_sales_price_sfr",  was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. It includes median sales prices from 2018 to 2024. The first five columns include identifiers while the following 69 and monthly median sales prices for all 49 states and for the US as a whole. The raw file has 50 rows and 74 columns. We use data for all home types (single-family home rentals and condos) as well as exclusively single-family rentals (SFR) which has the samme details as the file with all. 
+  Zillow data, "median_sales_price_all.csv" "median_sales_price_sfr.csv",  was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. It includes median sales prices from 2018 to 2024. The first five columns include identifiers while the following 69 and monthly median sales prices for all 49 states and for the US as a whole. The raw file has 50 rows and 74 columns. We use data for all home types (single-family home rentals and condos) as well as exclusively single-family rentals (SFR) which has the samme details as the file with all. 
 [(https://www.zillow.com/research/data/)]
 
-  Mortgage data "historicalweeklydata" was sourced on 7/15/2024 from Freddie Mac. It includes weekly interest rates for different types of mortgages (30 year fixed rate, 15 year fixed rate, 5/1 adjusted rate and more). It has 2789 rows and 9 collumns. 
+  Mortgage data "historicalweeklydata.csv" was sourced on 7/15/2024 from Freddie Mac. It includes weekly interest rates for different types of mortgages (30 year fixed rate, 15 year fixed rate, 5/1 adjusted rate and more). It has 2789 rows and 9 collumns. 
 [(https://www.freddiemac.com/pmms)]
 
 Code structure: 
