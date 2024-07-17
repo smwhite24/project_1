@@ -1,7 +1,14 @@
-Zillow Data was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. We use data for all home types (single-family home rentals and condos) as well as exclusively single-family rentals.
+Project Description: 
+  Our group compared mortgage rates against real estate prices. Our assumption was that increasing mortgage prices have a negative effect on real estate prices, because as mortgage rates increase and it becomes more difficult to borrow and afford to purchase a home, prices will follow and decrease. 
+
+Installation instructions: 
+  Please download the files in the github and ensure you have the following dependencies in your environment: Panadas, Numpy, MatPlotLib, SciPy. The raw data files are included in Resources folder. The visual outputs are in the Outputs folder. This was run in VS Code or can be ran in Jupyter Notebook. 
+
+Data Sources: 
+  Zillow Data was sourced on 7/9/2024. Zillow data is monthly median sales prices per metro area that is smoothed and seasonally adjusted. We use data for all home types (single-family home rentals and condos) as well as exclusively single-family rentals (SFR).
 [(https://www.zillow.com/research/data/)]
 
-Mortgage Data was sourced on 7/15/2024 from Freddie Mac. Merging with the Zillow data, so we have Nashville median prices for all and for single-family rentals in one place. 
+  Mortgage Data was sourced on 7/15/2024 from Freddie Mac. It includes weekly interest rates for different types of mortgages. Merging with the Zillow data, so we have Nashville median prices for all and for single-family rentals in one place. 
 [(https://www.freddiemac.com/pmms)]
 
 
@@ -27,7 +34,7 @@ We then plotted median sales prices for all against 30yr fixed mortgage rates ov
 
 Lastly, we calculated the correlation coefficients and produced two regressions. We produced one for 30yr FRM and one for 5/1 ARM because ARM seemed to deviate from both 30 and 15 year FRM. #Real estate prices below 300000 seem to have a negative relationship with mortgage rates while real estate median prices over 300k looks like to have an exponential relationship with mortgage rates.
 
-In the future we’d like to incorporate census data (demographic data like education, race, or income) to help explain changes in real estate prices. Additionally, we would like to explore what effect the pandemic had on median prices. 
+In the future we’d like to incorporate census data (demographic data like education, race, or income) to help explain changes in real estate prices. Additionally, we would like to explore what effect the pandemic had on median prices. In the future we could also look at the frequency of homes being put up for sale or being taken off the market. Mortgage rates affect buyers borrowing power and may have a greater effect on frequency of sales rather than price. 
 Our data was limited to median sales prices for only single family rentals and condos. We if had more time we would have explored the differences across commercial and residential prices and across different types of homes (1br, 2br, 3br). 
 
 Throughout this project we used Xpert Learning Assistant to trouble shoot code and visualizations. 
